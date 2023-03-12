@@ -1,20 +1,18 @@
 ---
 layout: home
+lastUpdated: true
+sidebar: auto
 
 hero:
-  name: "Dapr Container"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "My projects"
   actions:
     - theme: brand
-      text: Getting started
-      link: /guide/getting-started
+      text: Dapr Container
+      link: /daprcontainer/index.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: DaprContainer
+    details: A project to learn how to use Dapr and deploy it to Azure Container Apps
+  - title: EventHub to Kafka
+    details: A project containing a sample Azure Function that use Kafka Trigger to bind indescriminatly to an EventHub or Kafka cluster
 ---

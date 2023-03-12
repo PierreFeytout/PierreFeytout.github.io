@@ -2,27 +2,19 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Dapr Container",
+  ignoreDeadLinks: true,
+  title: "My projects",
   base: "/",
   description: "A VitePress Site",
+  lastUpdated: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/guide/getting-started' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Getting Started', link: '/guide/getting-started' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    footer: {
+    message: '',
+    copyright: ''
+  },
+  // https://vitepress.dev/reference/default-theme-config
+  nav: [
+      { text: 'Home', link: '/' }
     ]
   }
 })
